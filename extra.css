@@ -1,8 +1,11 @@
 /* docs/css/extra.css */
 
-img {
-    max-width: 100%;
+/* all images inside the page content */
+.md-content img {
+    max-width: 60%;
     height: auto;
+    display: block;
+    margin: 1em auto;
   }
 
   /* pull in your Google font of choice */
@@ -29,11 +32,3 @@ body {
 .md-sidebar {
   padding-top: 1rem;
 }
-
-/* make all images at most 60% of the text width */
-.md-content img {
-    max-width: 60%;
-    height: auto;
-    display: block;
-    margin: 1em auto;
-  }
