@@ -1,0 +1,1705 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Unguided Cerebral Organoid Protocol</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="css/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#references" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Unguided Cerebral Organoid Protocol" class="md-header__button md-logo" aria-label="Unguided Cerebral Organoid Protocol" data-md-component="logo">
+      
+  <img src="images/logo_400x400.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Unguided Cerebral Organoid Protocol
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Unguided Cerebral Organoid Protocol" class="md-nav__button md-logo" aria-label="Unguided Cerebral Organoid Protocol" data-md-component="logo">
+      
+  <img src="images/logo_400x400.png" alt="logo">
+
+    </a>
+    Unguided Cerebral Organoid Protocol
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<ul>
+<li><a href="#references">References</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#materials-and-equipment">Materials and Equipment</a></li>
+<li><a href="#cell-lines-and-media">Cell Lines and Media</a><ul>
+<li><a href="#media-compositions">Media Compositions</a></li>
+</ul>
+</li>
+<li><a href="#reagents">Reagents</a><ul>
+<li><a href="#anti-apoptotic-inhibitors-compositions">Anti-apoptotic Inhibitors
+  Compositions</a></li>
+</ul>
+</li>
+<li><a href="#plastics-and-disposables">Plastics and Disposables</a></li>
+<li><a href="#equipment">Equipment</a></li>
+<li><a href="#pre-protocol-considerations">Pre-Protocol Considerations</a></li>
+<li><a href="#detailed-protocol">Detailed Protocol</a></li>
+<li><a href="#timeline-overview">Timeline Overview</a></li>
+<li><a href="#stage-i-cell-cultivation-and-seeding-day-0">Stage I: Cell Cultivation and Seeding (Day
+    0)</a><ul>
+<li><a href="#stem-cell-cultivation">Stem Cell Cultivation</a></li>
+<li><a href="#dissociation-of-ipscs">Dissociation of iPSCs</a></li>
+<li><a href="#harvesting-and-counting-cells">Harvesting and Counting Cells</a></li>
+<li><a href="#seeding-into-96-well-plate">Seeding into 96-Well Plate</a></li>
+<li><a href="#media-change-technique-at-2-days-post-seeding">Media Change Technique (at 2 Days Post
+  Seeding)</a></li>
+</ul>
+</li>
+<li><a href="#stage-ii-embryoid-body-growth">Stage II: Embryoid Body Growth</a></li>
+<li><a href="#stage-iii-neuroinduction">Stage III: Neuroinduction</a></li>
+<li><a href="#stage-iv-embedding-in-basement-membrane-matrix-days-79">Stage IV: Embedding in Basement Membrane Matrix (Days
+    7–9)</a><ul>
+<li><a href="#post-embedding-maintenance-full-volume-changes-in-a-dish">Post-Embedding Maintenance (Full-Volume Changes in a
+  Dish)</a></li>
+</ul>
+</li>
+<li><a href="#stage-v-retinoic-acid-addition-and-ventricle-formation-days-1315">Stage V: Retinoic Acid Addition and Ventricle Formation (Days
+    13–15+)</a></li>
+<li><a href="#sec:counting_app">Appendix: Counting Cells in a Neubauer Chamber with Trypan Blue and
+  Detailed Seeding Example</a></li>
+<li><a href="#preparing-and-loading-the-chamber">Preparing and Loading the
+    Chamber</a></li>
+<li><a href="#microscopy-and-counting">Microscopy and Counting</a></li>
+<li><a href="#cell-concentration-and-viability-calculation">Cell Concentration and Viability
+    Calculation</a></li>
+<li><a href="#detailed-example-preparing-for-a-96-well-plate">Detailed Example: Preparing for a 96-Well
+    Plate</a></li>
+<li><a href="#final-notes-and-tips">Final Notes and Tips</a></li>
+<li><a href="#sec:sticking_app">Appendix: Preventing and Managing Sticking of
+  Organoids</a></li>
+<li><a href="#a-preventive-measures">A. Preventive Measures</a></li>
+<li><a href="#b-managing-stuck-or-fused-organoids">B. Managing Stuck or Fused Organoids</a></li>
+<li><a href="#c-additional-tips">C. Additional Tips</a></li>
+<li><a href="#image-gallery">Image Gallery</a></li>
+<li><a href="#seeding-for-embryoid-body-formation">Seeding for Embryoid Body
+    Formation</a></li>
+<li><a href="#embryoid-body-formation">Embryoid Body Formation</a></li>
+<li><a href="#embedded-organoid-development">Embedded Organoid Development</a></li>
+<li><a href="#organoid-maturation">Organoid Maturation</a></li>
+<li><a href="#plate-1-early-embedding-8-dps-and-early-vitamin-a-addition-14-dps">Plate 1: Early Embedding (8 dps) and Early Vitamin A Addition (14
+    dps)</a></li>
+<li><a href="#plate-2-early-embedding-8-dps-and-early-vitamin-a-addition-14-dps">Plate 2: Early Embedding (8 dps) and Early Vitamin A Addition (14
+    dps)</a></li>
+<li><a href="#plate-3-late-embedding-9-dps-and-late-vitamin-a-addition-15-dps">Plate 3: Late Embedding (9 dps) and Late Vitamin A Addition (15
+    dps)</a></li>
+</ul>
+<div class="titlepage">
+
+<img src="logo_400x400.png" style="width:30.0%" alt="image" />
+
+**Protocol for Generating Unguided Cerebral Organoids**  
+
+**With Illustrated Steps and Timeline**  
+**Author:**  
+Evgenii Kachkin  
+**Affiliation:**  
+Heidelberg University / ZMBH / Kaessmann Lab  
+**Version**  
+February 17, 2025
+
+</div>
+
+<div class="center">
+
+**Protocol for Generating Unguided Cerebral Organoids**  
+**With Illustrated Steps and Timeline**  
+
+</div>
+
+<h1 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h1>
+<p>Based on, with modifications:</p>
+<div class="enumerate">
+
+[JoVE (2023), DOI: 10.3791/65176](https://doi.org/10.3791/65176).
+
+Lancaster, M.A., Knoblich, J.A. *Generation of Cerebral Organoids from
+Human Pluripotent Stem Cells.* *Nat Protoc.* **9**, 2329–2340 (2014).
+
+</div>
+
+<h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
+<p>Cerebral organoids are three-dimensional multicellular structures
+derived from pluripotent stem cells that mimic brain-like regions. This
+protocol outlines the generation of “unguided” cerebral organoids from
+induced pluripotent stem cells (iPSCs), allowing spontaneous formation
+of dorsal forebrain–like areas. Applications include studying embryonic
+brain development, species-specific neurogenesis differences, and
+modeling neurodevelopmental disorders.</p>
+<h1 id="materials-and-equipment">Materials and Equipment<a class="headerlink" href="#materials-and-equipment" title="Permanent link">&para;</a></h1>
+<h2 id="cell-lines-and-media">Cell Lines and Media<a class="headerlink" href="#cell-lines-and-media" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><strong>iPSC Lines:</strong> Human, chimpanzee, or rhesus monkey.</p>
+</li>
+<li>
+<p><strong>iPSC Culture Media:</strong> mTeSR Plus (human/chimpanzee) or iPSC Brew
+  (macaque).</p>
+</li>
+<li>
+<p><strong>Neuroinduction Media (NIM):</strong> DMEM/F12 with supplements.</p>
+</li>
+<li>
+<p><strong>Differentiation Media (DM):</strong> DMEM/F12 and Neurobasal with
+  supplements, and with or without vitamin A (retinoic acid).</p>
+</li>
+</ul>
+<h3 id="media-compositions">Media Compositions<a class="headerlink" href="#media-compositions" title="Permanent link">&para;</a></h3>
+<div class="minipage">
+
+<div id="tab:dm">
+
+| **Component**           | **Amount** |
+|:------------------------|:-----------|
+| DMEM/F12                | 48.5 mL    |
+| N2 supplement           | 500 µL     |
+| GlutaMax (100x stock)   | 500 µL     |
+| MEM NEAA (100x stock)   | 500 µL     |
+| Heparin (1 mg/mL stock) | 50 µL      |
+
+DM -A or +A (Differentiation Media without or with retinoic acid) for 50
+mL
+
+</div>
+
+</div>
+
+<div class="minipage">
+
+<div id="tab:dm">
+
+| **Component**              | **Amount** |
+|:---------------------------|:-----------|
+| DMEM/F12                   | 24 mL      |
+| Neurobasal                 | 25 mL      |
+| B27 -A or +A               | 500 µL     |
+| N2 supplement              | 250 µL     |
+| MEM NEAA (100x stock)      | 250 µL     |
+| GlutaMax (100x stock)      | 500 µL     |
+| Pen-Strep (100 U/mL stock) | 500 µL     |
+| 2-MeEtOH (1:100)           | 17.5 µL    |
+| Insulin                    | 12.5 µL    |
+
+DM -A or +A (Differentiation Media without or with retinoic acid) for 50
+mL
+
+</div>
+
+</div>
+
+<h2 id="reagents">Reagents<a class="headerlink" href="#reagents" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>DPBS (Dulbecco’s Phosphate-Buffered Saline)</p>
+</li>
+<li>
+<p>Accutase</p>
+</li>
+<li>
+<p>DMEM/F-12</p>
+</li>
+<li>
+<p>Pro-survival compound (PSC) or CET (mix of anti-apoptotic inhibitors)
+  with Polyamine (CET+P)</p>
+</li>
+<li>
+<p>Basement membrane matrix (Matrigel)</p>
+</li>
+<li>
+<p>Retinoic acid (vitamin A)</p>
+</li>
+</ul>
+<h3 id="anti-apoptotic-inhibitors-compositions">Anti-apoptotic Inhibitors Compositions<a class="headerlink" href="#anti-apoptotic-inhibitors-compositions" title="Permanent link">&para;</a></h3>
+<div class="minipage">
+
+<div id="tab:cetp">
+
+| **Component** | **Dilution** |     |
+|:--------------|:-------------|:----|
+| PSC           | 1:1000       |     |
+
+CET+P (or CEPT) Dilutions
+
+</div>
+
+</div>
+
+<div class="minipage">
+
+<div id="tab:cetp">
+
+| **Component** | **Dilution** |
+|:--------------|:-------------|
+| CET           | 1:4000       |
+| Polyamine     | 1:1000       |
+
+CET+P (or CEPT) Dilutions
+
+</div>
+
+</div>
+
+<h2 id="plastics-and-disposables">Plastics and Disposables<a class="headerlink" href="#plastics-and-disposables" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>96-well <em>ultralow attachment</em> plates</p>
+</li>
+<li>
+<p>15 mL conical tubes, 60 mm Petri dishes</p>
+</li>
+<li>
+<p>Parafilm</p>
+</li>
+<li>
+<p>Sterile scissors, forceps, and pipette tips</p>
+</li>
+<li>
+<p>Neubauer chamber or automated cell counter</p>
+</li>
+</ul>
+<h2 id="equipment">Equipment<a class="headerlink" href="#equipment" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><strong>Laminar Flow Hood:</strong> For sterile work and UV sterilization.</p>
+</li>
+<li>
+<p><strong>Incubator:</strong> 37 $<code>^\circ</code>$C, 5% CO$<code>_2</code>$, 95% humidity.</p>
+</li>
+<li>
+<p><strong>Centrifuge:</strong> Capable of 300 $<code>\times g</code>$.</p>
+</li>
+<li>
+<p><strong>Orbital Shaker:</strong>  65 rpm capacity.</p>
+</li>
+</ul>
+<h1 id="pre-protocol-considerations">Pre-Protocol Considerations<a class="headerlink" href="#pre-protocol-considerations" title="Permanent link">&para;</a></h1>
+<ol>
+<li>
+<p><strong>iPSC Quality:</strong> Ensure iPSCs exhibit minimal spontaneous
+    differentiation and are mycoplasma-free.</p>
+</li>
+<li>
+<p><strong>Passaging iPSCs:</strong> Split cells to achieve approximately 80%
+    confluency on the day of EB seeding.</p>
+</li>
+<li>
+<p><strong>Sterile Technique:</strong> Disinfect surfaces with 70–80% ethanol and
+    maintain sterile conditions to prevent contamination.</p>
+</li>
+</ol>
+<h1 id="detailed-protocol">Detailed Protocol<a class="headerlink" href="#detailed-protocol" title="Permanent link">&para;</a></h1>
+<h2 id="timeline-overview">Timeline Overview<a class="headerlink" href="#timeline-overview" title="Permanent link">&para;</a></h2>
+<figure id="fig:timeline">
+<img src="lab manual timeline-2.png" style="width:45.0%" />
+<figcaption>Schematic Overview of Organoid Production
+Timeline</figcaption>
+</figure>
+
+<h2 id="stage-i-cell-cultivation-and-seeding-day-0">Stage I: Cell Cultivation and Seeding (Day 0)<a class="headerlink" href="#stage-i-cell-cultivation-and-seeding-day-0" title="Permanent link">&para;</a></h2>
+<h3 id="stem-cell-cultivation">Stem Cell Cultivation<a class="headerlink" href="#stem-cell-cultivation" title="Permanent link">&para;</a></h3>
+<p>Maintain iPSCs in culture, monitoring their viability post-thaw. Allow
+cells to recover, proliferate, and reach  80% confluency before
+passaging, using a splitting ratio of 1:6 to 1:15 based on colony
+density and health. Limit passaging to three passages to preserve
+genomic stability.</p>
+<figure id="fig:stem_cell_cultivation">
+<img src="6.png" style="width:30.0%" />
+<figcaption>Cultivation of Induced Pluripotent Stem Cells</figcaption>
+</figure>
+
+<h3 id="dissociation-of-ipscs">Dissociation of iPSCs<a class="headerlink" href="#dissociation-of-ipscs" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>When iPSCs reach 80–90% confluency, aspirate the medium.</p>
+</li>
+<li>
+<p>Wash cells with DPBS.</p>
+</li>
+<li>
+<p>Add 400 µL Accutase and incubate at 37°C for 5–7 minutes until cells
+    detach.</p>
+</li>
+<li>
+<p>Visually confirm under a microscope that all cells are fully
+    detached from the culture surface.</p>
+</li>
+<li>
+<p>Stop the reaction by adding 1 mL prewarmed DMEM/F12. For sensitive
+    cell lines, you may use DMEM/F12 supplemented with an anti-apoptotic
+    compound.</p>
+</li>
+<li>
+<p>Gently pipette up and down 5–10 times to obtain a single cell
+    suspension.</p>
+</li>
+</ol>
+<h3 id="harvesting-and-counting-cells">Harvesting and Counting Cells<a class="headerlink" href="#harvesting-and-counting-cells" title="Permanent link">&para;</a></h3>
+<p><strong>For a detailed explanation of cell counting in the Neubauer chamber,
+please see
+Appendix <a href="#sec:counting_app" data-reference-type="ref"
+data-reference="sec:counting_app">6</a>.</strong></p>
+<ol>
+<li>
+<p>Transfer the cell suspension to a 15 mL conical centrifuge tube.</p>
+</li>
+<li>
+<p>Centrifuge at 300 $<code>\times g</code>$ for 5 minutes at room temperature.</p>
+</li>
+<li>
+<p>Aspirate the supernatant and resuspend the pellet in  2 mL DMEM/F12.
+    For sensitive cell lines, you may use DMEM/F12 supplemented with an
+    anti-apoptotic compound.</p>
+</li>
+<li>
+<p>Count cells using a Neubauer chamber or an automated cell counter.</p>
+</li>
+</ol>
+<h3 id="seeding-into-96-well-plate">Seeding into 96-Well Plate<a class="headerlink" href="#seeding-into-96-well-plate" title="Permanent link">&para;</a></h3>
+<p><strong>For a detailed explanation of cell seeding and calculations, please
+see Appendix <a href="#sec:counting_app" data-reference-type="ref"
+data-reference="sec:counting_app">6</a>.</strong></p>
+<ol>
+<li>
+<p>Adjust cell density to 9,000 cells per 150 µL (60,000 cells/mL)
+    using iPSC culture medium supplemented with anti-apoptotic
+    compounds.</p>
+</li>
+<li>
+<p>Dispense 150 µL of the cell suspension into each well of an ultralow
+    attachment 96-well plate.</p>
+</li>
+<li>
+<p><strong>Important:</strong> While pipetting, gently shake the tube containing the
+    cell suspension to prevent cell sedimentation. Add cells to the
+    wells in a single slow motion to avoid creating separate drops.</p>
+</li>
+<li>
+<p>Incubate at 37 $<code>^\circ</code>$C, 5% CO$<code>_2</code>$ without disturbance for the
+    first 48 hours.</p>
+</li>
+<li>
+<p>At 2 days post seeding (dps), remove 100 µL of medium from each well
+    and add 150 µL of fresh iPSC culture medium without PSC.</p>
+</li>
+</ol>
+<h3 id="media-change-technique-at-2-days-post-seeding">Media Change Technique (at 2 Days Post Seeding)<a class="headerlink" href="#media-change-technique-at-2-days-post-seeding" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p><strong>Gently Remove Medium:</strong></p>
+<ul>
+<li>
+<p>Hold the 96-well plate at a slight angle so that the embryoid
+  bodies (EBs) collect near one side of the well.</p>
+</li>
+<li>
+<p>Using a P200 pipette set to 100 µL (or 150 µL if possible),
+  <strong>place the pipette tip against the wall</strong> of the well at an
+  <strong>angle of about 45 degrees</strong>, making sure the tip is above the
+  EBs.</p>
+</li>
+<li>
+<p>Slowly aspirate 100 µL of the old medium. Avoid touching the EB or
+  creating turbulent flow that might damage or aspirate the EB.</p>
+</li>
+<li>
+<p>Keep the pipette tip away from the bottom of the well; do not
+  scrape the surface.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Add Fresh Medium:</strong></p>
+<ul>
+<li>
+<p>Gently dispense 150 µL of fresh iPSC culture medium (without PSC)
+  down the side of the well (again at an angle), allowing it to flow
+  in slowly.</p>
+</li>
+<li>
+<p>This prevents excessive turbulence and keeps the EB in place.</p>
+</li>
+</ul>
+</li>
+</ol>
+<figure id="fig:seeding">
+<img src="1.png" style="width:30.0%" />
+<figcaption>Seeding of 9,000 Cells per Well</figcaption>
+</figure>
+
+<h2 id="stage-ii-embryoid-body-growth">Stage II: Embryoid Body Growth<a class="headerlink" href="#stage-ii-embryoid-body-growth" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Medium Changes Every Other Day:</strong></p>
+<ul>
+<li>
+<p>After seeding EBs, allow them to grow undisturbed for the first 48
+  hours.</p>
+</li>
+<li>
+<p>Starting from day 2 post-seeding (dps), perform medium changes
+  <strong>every other day</strong>.</p>
+</li>
+<li>
+<p>Gently remove 150 µL of spent medium from each well using a P200
+  pipette. If some volume has evaporated, remove less to avoid
+  disturbing the EB.</p>
+</li>
+<li>
+<p><strong>Angle the pipette tip</strong> near the well wall, keeping clear of the
+  EBs in the center. Aspirate slowly to prevent drawing EBs into the
+  tip.</p>
+</li>
+<li>
+<p>Replenish with 150 µL of fresh iPSC medium (without anti-apoptotic
+  compounds). Slowly dispense the medium along the side of the well
+  to minimize shear stress.</p>
+</li>
+<li>
+<p><strong>Tip:</strong> Prewarm all media to 37 °C before use.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Morphology and Growth by 4–5 dps:</strong></p>
+<ul>
+<li>
+<p>By days 4–5 post-seeding, EBs typically appear <em>smooth,
+  spherical</em>, and often display <strong>translucent edges</strong>.</p>
+</li>
+<li>
+<p>EBs may range from $<code>\sim</code>$<!-- -->150–300 µm in diameter at this
+  stage, though size can vary based on cell line.</p>
+</li>
+<li>
+<p><strong>Contamination Check:</strong> Use a microscope to inspect for bacterial
+  or fungal contamination. Discard any compromised wells to protect
+  the rest of the culture.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="stage-iii-neuroinduction">Stage III: Neuroinduction<a class="headerlink" href="#stage-iii-neuroinduction" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Switching from iPSC Medium to NIM:</strong></p>
+<ul>
+<li>
+<p>For <strong>macaque EBs:</strong> switch on day 4 post-seeding (4 dps).</p>
+</li>
+<li>
+<p>For <strong>human/chimpanzee EBs:</strong> switch on day 5 post-seeding (5
+  dps).</p>
+</li>
+<li>
+<p>Replace as much of the old iPSC medium as possible with 150 µL of
+  Neuroinduction Medium (NIM) in each well.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Ongoing NIM Changes (Every Other Day):</strong></p>
+<ul>
+<li>
+<p>Continue to feed with NIM every other day by removing 150 µL (or
+  less in case of evaporation) and replacing it with fresh,
+  prewarmed NIM.</p>
+</li>
+<li>
+<p>Maintain careful pipetting technique to avoid aspirating or
+  damaging the EBs.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="stage-iv-embedding-in-basement-membrane-matrix-days-79">Stage IV: Embedding in Basement Membrane Matrix (Days 7–9)<a class="headerlink" href="#stage-iv-embedding-in-basement-membrane-matrix-days-79" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Timing:</strong> Approximately 7 dps for rhesus macaque or 8–9 dps for
+    human/chimpanzee EBs.</p>
+</li>
+<li>
+<p><strong>Preparation:</strong></p>
+<ol>
+<li>
+<p>(Sterilising of scissors and forceps in Sekusept once a month).</p>
+</li>
+<li>
+<p>UV-sterilize scissors and forceps under the laminar flow hood.</p>
+</li>
+<li>
+<p>Thaw Matrigel on ice for 30–60 minutes ( 1.5 mL is sufficient
+    for 96 EBs).</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Creating Parafilm Dimples:</strong></p>
+<ol>
+<li>
+<p><strong>Prepare the Parafilm:</strong></p>
+<ul>
+<li>Cut a piece of Parafilm to approximately 6 cm × 6 cm. This
+  size is sufficient to form a grid of 16 dimples (4×4).</li>
+</ul>
+</li>
+<li>
+<p><strong>Form the Dimples:</strong></p>
+<ul>
+<li>
+<p>Place the Parafilm over a 200 µL pipette tip rack (with a 4×4
+  arrangement of tips removed).</p>
+</li>
+<li>
+<p>Gently press the Parafilm down over the empty tip holes to
+  create shallow wells. These will become your individual
+  dimples.</p>
+</li>
+<li>
+<p><em>Tip:</em> Ensure each dimple is deep enough to hold one EB in a
+  small droplet of Matrigel but not so large that the droplet
+  spreads too thin.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Trim Excess Parafilm:</strong></p>
+<ul>
+<li>After forming the dimples, carefully cut away any excess
+  Parafilm around the edges to create a neat 4×4 section. This
+  step helps the dimpled Parafilm fit evenly in a 60 mm Petri
+  dish.</li>
+</ul>
+</li>
+<li>
+<p><strong>Place Dimpled Parafilm in Dish:</strong></p>
+<ul>
+<li>Transfer the dimpled Parafilm into a sterile 60 mm Petri dish,
+  ensuring the dimples face upwards.</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Transferring EBs:</strong></p>
+<ol>
+<li>
+<p><strong>Prepare the EBs for Transfer:</strong></p>
+<ul>
+<li>Slightly tilt the plate to allow EBs to collect on one side of
+  each well.</li>
+</ul>
+</li>
+<li>
+<p><strong>Use a Cut 200 µL Tip:</strong></p>
+<ul>
+<li>
+<p>Cut the very end of a 200 µL pipette tip (2–3 mm) to widen the
+  opening.</p>
+</li>
+<li>
+<p>This prevents excessive shear stress on the EBs while
+  pipetting.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Aspirate EBs Gently:</strong></p>
+<ul>
+<li>
+<p>Set your pipette to a volume of  150–200 µL.</p>
+</li>
+<li>
+<p>Place the tip near the EBs (but not directly on them) and
+  gently aspirate.</p>
+</li>
+<li>
+<p>Move slowly to avoid damaging the EBs or creating bubbles.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Deposit EBs into Dimples:</strong></p>
+<ul>
+<li>
+<p>Transfer one EB per Parafilm dimple (4×4 = 16 dimples).</p>
+</li>
+<li>
+<p>Dispense carefully at a low angle, allowing the EB to settle
+  in the center of the dimple.</p>
+</li>
+<li>
+<p>Avoid excess agitation that might cause EBs to roll out.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Remove Excess Medium:</strong></p>
+<ul>
+<li>
+<p>After transferring a few EBs, any medium accumulating in the
+  dimple can be gently aspirated.</p>
+</li>
+<li>
+<p>Use a new small pipette tip (20 µL) to remove extra medium
+  without disturbing the EB.</p>
+</li>
+<li>
+<p>Keep enough moisture so that the EB does not dry, but remove
+  as much liquid as possible to ensure that Matrigel will not be
+  overly diluted in the next step.</p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Adding Matrigel:</strong></p>
+<ol>
+<li>
+<p><strong>Dispense Cold Matrigel:</strong></p>
+<ul>
+<li>
+<p>Use a 200 µL pipette tip to handle Matrigel (kept on ice).</p>
+</li>
+<li>
+<p>Pipette the whole volume of cold Matrigel from the tube.</p>
+</li>
+<li>
+<p>And pipette directly onto each EB-containing dimple by
+  droplet.</p>
+</li>
+<li>
+<p>Work quickly to avoid premature polymerization at room
+  temperature.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Center the EB in the Droplet:</strong></p>
+<ul>
+<li>
+<p>Using a 10 µL pipette tip or a microdissection tool, gently
+  push or nudge the EB toward the middle of the Matrigel
+  droplet.</p>
+</li>
+<li>
+<p><strong>Do not disrupt the droplet border</strong>—avoid piercing through
+  the Matrigel layer.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Adjust Droplet Size as Needed:</strong></p>
+<ul>
+<li>
+<p>If the droplet appears too small to fully cover the EB, add
+  another small droplet of Matrigel.</p>
+</li>
+<li>
+<p>If the EB is too close to the droplet edge, gently move it
+  inward and deposit more Matrigel to keep the EB fully
+  surrounded.</p>
+</li>
+<li>
+<p>Ensure the Matrigel does not spread so thin that it fails to
+  provide adequate 3D support.</p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Polymerization:</strong></p>
+<ol>
+<li>Incubate the dish at 37 $<code>^\circ</code>$C for 15–30 minutes to allow
+    Matrigel to polymerize.</li>
+</ol>
+</li>
+<li>
+<p><strong>Detaching to Shaker Culture:</strong></p>
+<ol>
+<li>
+<p><strong>Prepare a Dish with Fresh DM (no Vitamin A):</strong></p>
+<ul>
+<li>
+<p>Fill a 60 mm Petri dish (or similar) with sufficient
+  differentiation medium (DM) without vitamin A—enough volume
+  (e.g., 5–6 mL) to fully submerge the Parafilm sheet.</p>
+</li>
+<li>
+<p>Keep this dish under sterile conditions in the laminar flow
+  hood.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Flip the Parafilm:</strong></p>
+<ul>
+<li>
+<p>Carefully pick up with forceps the Parafilm by its edges (to
+  avoid disturbing the embedded EBs).</p>
+</li>
+<li>
+<p>Invert (flip) it so that the Matrigel droplets/EBs face
+  downward.</p>
+</li>
+<li>
+<p>Gently submerge the flipped Parafilm in the dish containing
+  DM. The Matrigel droplets should now be in direct contact with
+  the medium.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Swirl or Gently Roll the Parafilm:</strong></p>
+<ul>
+<li>
+<p>Holding the Petri dish at a slight angle, swirl the dish in a
+  circular motion.</p>
+</li>
+<li>
+<p>If needed, use a gentle rolling motion of the Parafilm itself
+  (e.g., tipping it slightly side-to-side) to dislodge the
+  Matrigel-embedded EBs from the film surface.</p>
+</li>
+<li>
+<p><strong>Note:</strong> Avoid vigorous shaking—excessive shear can damage
+  the EBs. A few gentle swirls typically loosen them.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Check for EBs That Remain Attached:</strong></p>
+<ul>
+<li>
+<p>Ensure all EBs have been released into the medium.</p>
+</li>
+<li>
+<p>If any droplets remain stuck, use a wide-bore pipette tip
+  (200 µL tip with the end cut off) to gently coax them off the
+  Parafilm.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Transfer Dish to Orbital Shaker:</strong></p>
+<ul>
+<li>
+<p>Once all EBs are detached, remove the Parafilm from the dish
+  and discard it.</p>
+</li>
+<li>
+<p>Place the Petri dish (now containing Matrigel-embedded EBs in
+  DM) onto an orbital shaker set to  65 rpm.</p>
+</li>
+<li>
+<p>Incubate at 37 $<code>^\circ</code>$C with 5% CO$<code>_2</code>$ and  95% humidity.</p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<figure id="fig:2_and_3">
+<figure id="fig:transferring_EBs">
+<img src="2.png" />
+<figcaption>Transferring EBs to Parafilm for Embedding</figcaption>
+</figure>
+<figure id="fig:embedding">
+<img src="3.png" />
+<figcaption>Embedding EBs in Matrigel for 3D Structure
+Support</figcaption>
+</figure>
+<figcaption>EBs during transfer and embedding.</figcaption>
+</figure>
+
+<h3 id="post-embedding-maintenance-full-volume-changes-in-a-dish">Post-Embedding Maintenance (Full-Volume Changes in a Dish)<a class="headerlink" href="#post-embedding-maintenance-full-volume-changes-in-a-dish" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>Full Media Change Schedule (Without Vitamin A):</strong></p>
+</li>
+<li>
+<p>Every other day, remove and replace the entire volume of
+    differentiation medium (DM) (5–6 mL).</p>
+</li>
+<li>
+<p>This ensures fresh nutrients and reduces waste/toxin buildup.</p>
+</li>
+<li>
+<p><strong>Gathering Organoids in the Center:</strong></p>
+</li>
+<li>
+<p>Before aspirating, gently rotate or swirl the dish on a flat,
+    horizontal surface.</p>
+</li>
+<li>
+<p>This slow, circular motion helps organoids drift toward the center
+    of the dish.</p>
+</li>
+<li>
+<p><strong>Note:</strong> Avoid vigorous tilting or swirling, which can cause
+    organoids to stick to the edges or become damaged.</p>
+</li>
+<li>
+<p><strong>Aspirating the Medium:</strong></p>
+</li>
+<li>
+<p>Use a 1000 µL pipette set to 1 mL at a time.</p>
+</li>
+<li>
+<p>Carefully place the pipette tip near the edge of the dish, away from
+    the cluster of organoids.</p>
+</li>
+<li>
+<p>Slowly aspirate the medium in successive 1 mL pulls until only a
+    small layer of liquid remains.</p>
+</li>
+<li>
+<p>Monitor for any organoids that might drift toward the pipette tip;
+    if so, gently release them back into the center.</p>
+</li>
+<li>
+<p><strong>Refilling with Fresh DM (Without Vitamin A):</strong></p>
+</li>
+<li>
+<p>Slowly add 5–6 mL of fresh DM down the side of the dish, allowing it
+    to flow around the organoids.</p>
+</li>
+<li>
+<p>Lightly swirl the dish afterward to distribute fresh medium evenly,
+    but avoid creating excessive shear stress.</p>
+</li>
+<li>
+<p><strong>Observation and Maintenance:</strong></p>
+</li>
+<li>
+<p>Examine the organoids regularly under a microscope or good lighting
+    for necrosis, fusion, or contamination.</p>
+</li>
+<li>
+<p>If organoids stick together or to the dish edge, use a wide-bore
+    pipette tip to gently separate them.</p>
+</li>
+</ul>
+<figure id="fig:organoid_growth">
+<img src="4.png" style="width:30.0%" />
+<figcaption>Organoid Growth in Differentiation Medium on the Shaker (No
+Vitamin A).</figcaption>
+</figure>
+
+<h2 id="stage-v-retinoic-acid-addition-and-ventricle-formation-days-1315">Stage V: Retinoic Acid Addition and Ventricle Formation (Days 13–15+)<a class="headerlink" href="#stage-v-retinoic-acid-addition-and-ventricle-formation-days-1315" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Switch to Vitamin A DM:</strong></p>
+<ul>
+<li>
+<p>At the appropriate day (13 for rhesus, 14–15 for
+  human/chimpanzee), perform a <strong>full-volume</strong> media change just as
+  described above, but use DM containing vitamin A (retinoic acid).</p>
+</li>
+<li>
+<p>Use the same volume (5–6 mL) and gentle technique to avoid
+  shearing the organoids.</p>
+</li>
+<li>
+<p>All subsequent feeds now include vitamin A (unless otherwise
+  specified for experimental design).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Feeding Frequency (Every 3–4 Days):</strong></p>
+<ul>
+<li>
+<p>After the initial vitamin A switch, continue replacing the entire
+  medium volume every 3–4 days.</p>
+</li>
+<li>
+<p>If organoids grow large or consume nutrients rapidly, you may
+  increase the frequency of full-volume changes to every 2–3 days.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Morphological Expectations:</strong></p>
+<ul>
+<li>
+<p>Over the next 1–2 weeks, expect to see ventricle-like cavities
+  lined by neuroepithelial cells.</p>
+</li>
+<li>
+<p>Monitor carefully for fusion if organoids become large or
+  numerous. Consider gently separating fused organoids.</p>
+</li>
+</ul>
+</li>
+</ol>
+<figure id="fig:retinoic_acid">
+<img src="5.png" style="width:30.0%" />
+<figcaption>Organoid Growth Post-Retinoic Acid Addition on the
+Shaker.</figcaption>
+</figure>
+
+<p><strong>Final Remarks:</strong> This detailed protocol provides a comprehensive guide
+for producing unguided cerebral organoids. Adhere to sterile techniques
+and monitor EB morphology closely. Adjust timelines based on specific
+iPSC lines and species to ensure successful organoid development.
+Incorporate best practices such as regular sterility checks and
+consistent Matrigel batch testing to maintain high-quality outcomes.</p>
+<h1 id="sec:counting_app">Appendix: Counting Cells in a Neubauer Chamber with Trypan Blue and Detailed Seeding Example<a class="headerlink" href="#sec:counting_app" title="Permanent link">&para;</a></h1>
+<p>Accurate cell counting is essential for reproducible organoid formation.
+This section outlines how to prepare your sample for counting in a
+Neubauer (hemocytometer) chamber, how to factor in trypan blue for
+viability assessment, and how to calculate the volume needed for a
+96-well plate when each well should receive 9,000 cells.</p>
+<h2 id="preparing-and-loading-the-chamber">Preparing and Loading the Chamber<a class="headerlink" href="#preparing-and-loading-the-chamber" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Sample Preparation:</strong></p>
+<ul>
+<li>
+<p>Gently resuspend your cell pellet in an appropriate medium (e.g.,
+  DMEM/F12 + PSC) to ensure a homogeneous cell suspension.</p>
+</li>
+<li>
+<p>If the cell density is very high, pre-dilute the suspension (e.g.,
+  1:2 or 1:10) to avoid overcrowding on the chamber grid.</p>
+</li>
+<li>
+<p><strong>Trypan Blue Staining:</strong> To assess viability, mix 10 µL of your
+  cell suspension with 10 µL of trypan blue (1:1).</p>
+</li>
+<li>
+<p>This introduces a 2-fold dilution factor to be accounted for in
+    the final calculation.</p>
+</li>
+<li>
+<p>Non-viable cells will appear dark or deep blue; viable cells
+    remain unstained or faintly stained.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Loading the Chamber:</strong></p>
+<ul>
+<li>
+<p>Clean the hemocytometer with 70% ethanol and place a coverslip
+  over the counting grid.</p>
+</li>
+<li>
+<p>Using a pipette, carefully load  10 µL of your (stained) cell
+  suspension on the edge of the coverslip. Capillary action should
+  pull the fluid under the coverslip, covering the grid.</p>
+</li>
+<li>
+<p>Avoid introducing bubbles or overfilling the chamber; if you see
+  fluid run into the outer channels, discard and reload.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="microscopy-and-counting">Microscopy and Counting<a class="headerlink" href="#microscopy-and-counting" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Focus and Identify the Grid Lines:</strong></p>
+<ul>
+<li>
+<p>Place the hemocytometer on the microscope stage.</p>
+</li>
+<li>
+<p>Under low magnification, focus on the central counting area. Each
+  Neubauer chamber has 9 large squares.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Count Cells in Four Corner Squares:</strong></p>
+<ul>
+<li>
+<p>Typically, you count the cells in four corner squares (each corner
+  is subdivided into 16 smaller squares).</p>
+</li>
+<li>
+<p>Include cells touching the top or left boundary lines; exclude
+  cells on the bottom or right boundary lines to avoid double
+  counting.</p>
+</li>
+<li>
+<p>If cells are too densely packed, prepare a further dilution.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>(Optional) Calculate Viability by Using Trypan Blue:</strong></p>
+<ul>
+<li>Record how many cells are stained vs. unstained to determine the
+  viability percentage:
+  <div class="highlight"><pre><span></span><code>\text{Viability} \; (\%) = 
+            \frac{\text{Number of unstained (viable) cells}}{\text{Total cells}} 
+            \times 100.
+</code></pre></div></li>
+</ul>
+</li>
+</ol>
+<h2 id="cell-concentration-and-viability-calculation">Cell Concentration and Viability Calculation<a class="headerlink" href="#cell-concentration-and-viability-calculation" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Average Cell Count:</strong></p>
+<ul>
+<li>
+<p>Suppose you count cells in four large squares: 45, 50, 48, and 52.</p>
+</li>
+<li>
+<p>Average = $<code>\dfrac{45 + 50 + 48 + 52}{4} = 48.75</code>$ cells per large
+  square.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Convert to Cells/mL:</strong></p>
+<ul>
+<li>In a Neubauer chamber, multiply by $<code>10^4</code>$ to obtain cells/mL:
+  <div class="highlight"><pre><span></span><code>48.75 \times 10^4 = 4.875 \times 10^5 \; \text{cells/mL}.
+</code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Account for Trypan Blue Dilution:</strong></p>
+<ul>
+<li>
+<p>If you mixed the cell suspension with trypan blue at 1:1, that is
+  a 2-fold total dilution.</p>
+</li>
+<li>
+<p>Multiply the above result by 2:
+  <div class="highlight"><pre><span></span><code>4.875 \times 10^5 \times 2 = 9.75 \times 10^5 \;\text{cells/mL}.
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>This is your final cell concentration.</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="detailed-example-preparing-for-a-96-well-plate">Detailed Example: Preparing for a 96-Well Plate<a class="headerlink" href="#detailed-example-preparing-for-a-96-well-plate" title="Permanent link">&para;</a></h2>
+<p><strong>Goal:</strong> Seed 9,000 cells per well in 150 µL for each of 96 wells.</p>
+<ol>
+<li>
+<p><strong>Determine the Target Cell Density for Seeding:</strong></p>
+<ul>
+<li>Each well requires 9,000 cells in 0.15 mL ($<code>150\,\mu\text{L}</code>$):
+  <div class="highlight"><pre><span></span><code>\text{Target density} = \dfrac{9,000 \text{ cells}}{0.15 \text{ mL}} 
+            = 60{,}000 \text{ cells/mL}.
+</code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Compare Your Final Measured Concentration to the Target:</strong></p>
+<ul>
+<li>
+<p>From the calculation above, your suspension is at
+  $<code>9.75 \times 10^5</code>$ cells/mL.</p>
+</li>
+<li>
+<p>You need $<code>6.0 \times 10^4</code>$ cells/mL for seeding.</p>
+</li>
+<li>
+<p>The required dilution factor is:
+  <div class="highlight"><pre><span></span><code>\dfrac{9.75 \times 10^5 \text{ cells/mL}}{6.0 \times 10^4 \text{ cells/mL}}
+            \approx 16.25.
+</code></pre></div></p>
+</li>
+<li>
+<p>In other words, you must dilute your cell suspension 16.25-fold to
+  reach 60,000 cells/mL.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Calculate the Final Volume Needed:</strong></p>
+<ul>
+<li>
+<p>If you currently have 1 mL of the concentrated suspension at
+  $<code>9.75 \times 10^5</code>$ cells/mL, to dilute it 16.25-fold, you need a
+  total of:
+  <div class="highlight"><pre><span></span><code>16.25\,\text{mL} - 1\,\text{mL} = 15.25\,\text{mL}
+</code></pre></div>
+  of additional medium (with PSC if desired).</p>
+</li>
+<li>
+<p>This gives you $<code>16.25</code>$ mL at $<code>6.0 \times 10^4</code>$ cells/mL once
+  mixed thoroughly.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Seeding a 96-Well Plate:</strong></p>
+<ul>
+<li>
+<p>Total volume needed for a 96-well plate:
+  <div class="highlight"><pre><span></span><code>96 \times 0.15\,\text{mL} = 14.4\,\text{mL}.
+</code></pre></div></p>
+</li>
+<li>
+<p>You will have $<code>16.25</code>$ mL total, which is enough for all 96 wells
+  plus extra for pipetting errors.</p>
+</li>
+<li>
+<p>Aliquot 150 µL into each well; each well now contains 9,000 cells.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="final-notes-and-tips">Final Notes and Tips<a class="headerlink" href="#final-notes-and-tips" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><strong>Check Viability:</strong> If using trypan blue, ensure an acceptable
+  percentage of viable (unstained) cells prior to seeding.</p>
+</li>
+<li>
+<p><strong>Mix Gently and Often:</strong> Cells can settle quickly. Gently swirl or
+  invert the tube before each pipetting step to keep the suspension
+  homogeneous.</p>
+</li>
+<li>
+<p><strong>Add a Margin:</strong> Preparing slightly more than the minimum needed for
+  96 wells (e.g., enough for 100 wells) helps avoid running short due to
+  pipetting loss.</p>
+</li>
+</ul>
+<h1 id="sec:sticking_app">Appendix: Preventing and Managing Sticking of Organoids<a class="headerlink" href="#sec:sticking_app" title="Permanent link">&para;</a></h1>
+<p>Organoids may sometimes stick to each other or adhere to the dish walls.
+Below are practical tips for prevention and remediation:</p>
+<h2 id="a-preventive-measures">A. Preventive Measures<a class="headerlink" href="#a-preventive-measures" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Optimize Seeding Density:</strong></p>
+<ul>
+<li>
+<p>Avoid over-seeding dishes such that large numbers of organoids end
+  up in close proximity.</p>
+</li>
+<li>
+<p>Excessively high density promotes fusion and sticking.</p>
+</li>
+<li>
+<p>To prevent overcrowding, sticking and ensure adequate nutrient
+  supply, limit cultivation to a maximum of 16 organoids per 60 mm
+  Petri dish.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Proper Embedding:</strong></p>
+<ul>
+<li>
+<p>Press Gently: Use moderate force when pressing Parafilm over the
+  tip rack. Excessive indentation can result in lumps or ridges.</p>
+</li>
+<li>
+<p>Check for Bumps: Inspect dimples for an even, shallow shape to
+  ensure a smooth Matrigel droplet later on.</p>
+</li>
+<li>
+<p>Irregular Matrigel surfaces can trap organoids in ridges or
+  corners, raising the risk of sticking and making it harder to
+  properly embed each organoid.</p>
+</li>
+<li>
+<p>Allowing Matrigel to polymerize for longer than 30 minutes during
+  embedding can reduce the overall adhesivity around organoids.</p>
+</li>
+<li>
+<p>Conversely, prematurely transferring organoids after a very short
+  solidification period (e.g., \&lt;15 minutes) may leave the Matrigel
+  too soft, increasing the risk of fusion or sticking.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Gentle Orbital Shaking:</strong></p>
+<ul>
+<li>
+<p>Keep organoids in constant, slow motion (e.g., 65 rpm) to reduce
+  the likelihood of them settling and sticking to each other or the
+  surface.</p>
+</li>
+<li>
+<p>Confirm that the shaker is level and the speed is correct; too
+  slow may allow settling, while too fast can induce shear stress.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Regular Medium Changes:</strong></p>
+<ul>
+<li>
+<p>Replace medium on schedule (every 2–3 days, depending on the
+  protocol stage) to remove debris and cell clumps that can promote
+  sticking.</p>
+</li>
+<li>
+<p>During medium changes, swirl the dish gently before aspiration so
+  that organoids gather away from the edges.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Use of Wide-Bore Pipette Tips:</strong></p>
+<ul>
+<li>
+<p>When transferring organoids, always use cut or wide-bore tips to
+  reduce mechanical damage that creates sticky debris.</p>
+</li>
+<li>
+<p>Slow pipetting helps avoid pushing organoids together.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="b-managing-stuck-or-fused-organoids">B. Managing Stuck or Fused Organoids<a class="headerlink" href="#b-managing-stuck-or-fused-organoids" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Separation:</strong></p>
+<ul>
+<li>
+<p><strong>Initial Swirl:</strong> Gently swirl or tilt the dish to see if the
+  organoids will naturally separate from each other or from the dish
+  surface.</p>
+</li>
+<li>
+<p><strong>Aspirate and Dispense:</strong> If they remain fused, use a pipette
+  (preferably with a wide-bore or cut tip) to aspirate and dispense
+  medium directly onto the fusion point.</p>
+</li>
+<li>
+<p><strong>Use Minimal Force:</strong> Apply gentle pressure to avoid creating a
+  high-flow jet that could damage the organoids.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Lower the Culture Density:</strong></p>
+<ul>
+<li>
+<p>If fusion is frequent, reduce the total number of organoids per
+  dish or well.</p>
+</li>
+<li>
+<p>Splitting a heavily populated plate into two plates can alleviate
+  crowding.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="c-additional-tips">C. Additional Tips<a class="headerlink" href="#c-additional-tips" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Frequent Monitoring:</strong></p>
+<ul>
+<li>
+<p>Check the cultures daily, at least briefly, to catch early signs
+  of sticking or fusion.</p>
+</li>
+<li>
+<p>Early intervention (e.g., gently separating partially fused
+  organoids) is less damaging than dealing with a large fused
+  cluster.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Record Keeping:</strong></p>
+<ul>
+<li>
+<p>Maintain detailed notes of any sticking or fusion events, and any
+  corrective actions taken.</p>
+</li>
+<li>
+<p>This log helps troubleshoot future occurrences by revealing
+  patterns or batch-specific issues.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>Final Note:</strong> Implementing these preventive measures and gentle
+mechanical interventions early usually resolves mild sticking or fusion.</p>
+<h1 id="image-gallery">Image Gallery<a class="headerlink" href="#image-gallery" title="Permanent link">&para;</a></h1>
+<p>This gallery showcases the photographs captured during the generation of
+cerebral organoids using the protocol outlined above. Each image is
+organized chronologically and corresponds to specific stages in the
+protocol.</p>
+<h2 id="seeding-for-embryoid-body-formation">Seeding for Embryoid Body Formation<a class="headerlink" href="#seeding-for-embryoid-body-formation" title="Permanent link">&para;</a></h2>
+<figure id="fig:1_Sandra_1711">
+<img src="1_Sandra_1711.jpeg" style="width:35.0%" />
+<figcaption>Large and healthy iPSC colonies prepared for EB formation on
+November 17, 2024.</figcaption>
+</figure>
+
+<h2 id="embryoid-body-formation">Embryoid Body Formation<a class="headerlink" href="#embryoid-body-formation" title="Permanent link">&para;</a></h2>
+<figure id="fig:EB_culture_conditions">
+<figure id="fig:Sandra_eb_PSC2">
+<img src="Sandra_eb_PSC2.jpeg" />
+<figcaption>EB (2 dps) on November 19, 2024.</figcaption>
+</figure>
+<figure id="fig:Sandra_PSC2-20">
+<img src="Sandra_PSC2-20.jpeg" />
+<figcaption>EB (3 dps) on November 20, 2024.</figcaption>
+</figure>
+<figure id="fig:Sandra_eb_PSC_NIM5d0_6F">
+<img src="Sandra_eb_PSC_NIM5d0_6F.jpeg" />
+<figcaption>EB (5 dps) on November 22, 2024.</figcaption>
+</figure>
+<figure id="fig:Sandra_eb_PSC_NIM4d2_8H">
+<img src="Sandra_eb_PSC_NIM4d2_8H.jpeg" />
+<figcaption>EB (6 dps) on November 23, 2024.</figcaption>
+</figure>
+<figcaption>Morphology of EBs.</figcaption>
+</figure>
+
+<h2 id="embedded-organoid-development">Embedded Organoid Development<a class="headerlink" href="#embedded-organoid-development" title="Permanent link">&para;</a></h2>
+<figure id="fig:Sandra_b1711_ung_emb2611_p3_2-20">
+<figure id="fig:Sandra_b1711_ung_emb2511_p1_3">
+<img src="Sandra_b1711_ung_emb2511_p1_3.jpeg" />
+<figcaption>Early Embedding (8 dps) on November 25, 2024.</figcaption>
+</figure>
+<figure id="fig:Sandra_b1711_ung_emb2611_p3_2-20">
+<img src="Sandra_b1711_ung_emb2611_p3_2.jpeg" />
+<figcaption>Late Embedding (9 dps) on November 26, 2024.</figcaption>
+</figure>
+<figcaption>Morphology of Organoids.</figcaption>
+</figure>
+
+<h2 id="organoid-maturation">Organoid Maturation<a class="headerlink" href="#organoid-maturation" title="Permanent link">&para;</a></h2>
+<figure id="fig:Sandra_b1711_emb25_late_3_6">
+<figure id="fig:Sandra_b1711_emb25_1_4">
+<img src="Sandra_b1711_emb25_1_4.jpeg" />
+<figcaption>Organoid (11 dps) of E8 on November 28, 2024.</figcaption>
+</figure>
+<figure id="fig:Sandra_b1711_emb25_late_3_6">
+<img src="Sandra_b1711_emb25_late_3_6.jpeg" />
+<figcaption>Organoid (11 dps) of E9 on November 28, 2024.</figcaption>
+</figure>
+<figcaption>Morphology of Organoids.</figcaption>
+</figure>
+
+<h2 id="plate-1-early-embedding-8-dps-and-early-vitamin-a-addition-14-dps">Plate 1: Early Embedding (8 dps) and Early Vitamin A Addition (14 dps)<a class="headerlink" href="#plate-1-early-embedding-8-dps-and-early-vitamin-a-addition-14-dps" title="Permanent link">&para;</a></h2>
+<figure id="fig:p1_gallery">
+<figure id="fig:p1-3.1">
+<img src="p1-3.1.jpeg" />
+<figcaption>Sample p1-3.1</figcaption>
+</figure>
+<figure id="fig:p1-5.2">
+<img src="p1-5.2.jpeg" />
+<figcaption>Sample p1-5.2</figcaption>
+</figure>
+<figcaption>Early Embedding and Early Vitamin A Addition Organoids – 26
+dps; December 13, 20224 (Collected on December 16, 2024).</figcaption>
+</figure>
+
+<h2 id="plate-2-early-embedding-8-dps-and-early-vitamin-a-addition-14-dps">Plate 2: Early Embedding (8 dps) and Early Vitamin A Addition (14 dps)<a class="headerlink" href="#plate-2-early-embedding-8-dps-and-early-vitamin-a-addition-14-dps" title="Permanent link">&para;</a></h2>
+<figure id="fig:p2_gallery">
+<figure id="fig:p2-3.1">
+<img src="p2-3.1.jpeg" />
+<figcaption>Sample p2-3.1</figcaption>
+</figure>
+<figure id="fig:p2-4.2">
+<img src="p2-4.2.jpeg" />
+<figcaption>Sample p2-4.2</figcaption>
+</figure>
+<figcaption>Early Embedding and Early Vitamin A Addition Organoids – 26
+dps; December 13, 2024 (Collected on December 16, 2024).</figcaption>
+</figure>
+
+<h2 id="plate-3-late-embedding-9-dps-and-late-vitamin-a-addition-15-dps">Plate 3: Late Embedding (9 dps) and Late Vitamin A Addition (15 dps)<a class="headerlink" href="#plate-3-late-embedding-9-dps-and-late-vitamin-a-addition-15-dps" title="Permanent link">&para;</a></h2>
+<figure id="fig:p3_gallery">
+<figure id="fig:p3-2.2">
+<img src="p3-2.2.jpeg" />
+<figcaption>Sample p3-2.2</figcaption>
+</figure>
+<figure id="fig:p3-3.2">
+<img src="p3-3.2.jpeg" />
+<figcaption>Sample p3-3.2</figcaption>
+</figure>
+<figcaption>Late Embedding and Late Vitamin A Addition Organoids – 26
+dps; December 13, 2024 (Collected on December 16, 2024).</figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.expand", "navigation.sections", "toc.integrate", "content.code.copy"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
