@@ -32,3 +32,10 @@ body {
 .md-sidebar {
   padding-top: 1rem;
 }
+
+#fig\\:transferring_EBs img,
+#fig\\:embedding img {
+  width: 40% !important;
+  margin: 0 auto 1em;
+  display: block;
+}
