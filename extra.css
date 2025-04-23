@@ -29,3 +29,11 @@ body {
 .md-sidebar {
   padding-top: 1rem;
 }
+
+/* make all images at most 60% of the text width */
+.md-content img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+  }
