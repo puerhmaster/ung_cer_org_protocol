@@ -1,0 +1,17 @@
+site_name: "Unguided Cerebral Organoid Protocol"
+nav:
+  - Home: index.md
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - attr_list
