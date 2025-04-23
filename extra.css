@@ -4,3 +4,28 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+  /* pull in your Google font of choice */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* make headings stand out a bit more */
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* tighten up the sidebar a touch */
+.md-sidebar {
+  padding-top: 1rem;
+}
