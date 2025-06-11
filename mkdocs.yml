@@ -1,17 +1,88 @@
 site_name: "Unguided Cerebral Organoid Protocol"
+
 nav:
   - Home: index.md
+  - Introduction: 01-introduction.md
+  - "Materials & Equipment": 02-materials.md
+  - Protocol:
+      - "Timeline Overview": "03-protocol.md#timeline-overview"
+      - "Stage I: Cell Cultivation & Seeding (Day 0)": "03-protocol.md#stage-i-cell-cultivation-and-seeding-day-0"
+      - "Stage II: Embryoid Body Growth": "03-protocol.md#stage-ii-embryoid-body-growth"
+      - "Stage III: Neuroinduction": "03-protocol.md#stage-iii-neuroinduction"
+      - "Stage IV: Embedding (Days 7–9)": "03-protocol.md#stage-iv-embedding-in-basement-membrane-matrix-days-79"
+      - "Stage V: Retinoic Acid Addition (Days 13–15+)": "03-protocol.md#stage-v-retinoic-acid-addition-and-ventricle-formation-days-1315"
+  - Appendix:
+      - "Counting & Seeding Example": "appendix.md#sec:counting_app"
+      - "Preventing Sticking": "appendix.md#sec:sticking_app"
+  - "Image Gallery": gallery.md
+
 theme:
   name: material
+  logo: images/logo_400x400.png
+  favicon: images/logo_400x400.png
+  features:
+    - navigation.expand
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+    - toc.follow
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+    - header.autohide
+    - announce.dismiss
   palette:
-    primary: blue
-    accent: light blue
+    # Custom palette with blue/cyan for science
+    - scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: "Inter"
+    code: "JetBrains Mono"
+  language: en
+
+plugins:
+  - search
+  - social
+  - tags
+  - table-reader
+
 markdown_extensions:
   - toc:
       permalink: true
   - admonition
   - footnotes
   - attr_list
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+  - css/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourrepo
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourtwitter
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/yourtelegram
