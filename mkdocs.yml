@@ -4,16 +4,8 @@ nav:
   - Home: index.md
   - Introduction: 01-introduction.md
   - "Materials & Equipment": 02-materials.md
-  - Protocol:
-      - "Timeline Overview": "03-protocol.md#timeline-overview"
-      - "Stage I: Cell Cultivation & Seeding (Day 0)": "03-protocol.md#stage-i-cell-cultivation-and-seeding-day-0"
-      - "Stage II: Embryoid Body Growth": "03-protocol.md#stage-ii-embryoid-body-growth"
-      - "Stage III: Neuroinduction": "03-protocol.md#stage-iii-neuroinduction"
-      - "Stage IV: Embedding (Days 7–9)": "03-protocol.md#stage-iv-embedding-in-basement-membrane-matrix-days-79"
-      - "Stage V: Retinoic Acid Addition (Days 13–15+)": "03-protocol.md#stage-v-retinoic-acid-addition-and-ventricle-formation-days-1315"
-  - Appendix:
-      - "Counting & Seeding Example": "appendix.md#sec:counting_app"
-      - "Preventing Sticking": "appendix.md#sec:sticking_app"
+  - Protocol: 03-protocol.md
+  - Appendix: appendix.md
   - "Image Gallery": gallery.md
 
 theme:
@@ -72,8 +64,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
   - css/extra.css

@@ -186,188 +186,150 @@ Cerebral organoids are three-dimensional multicellular structures derived from p
 
 ### 5.1 Timeline Overview
 
-![Figure 1: Schematic Overview of Organoid Production Timeline](images/timeline.png)
+![**Figure 1.** Schematic overview of the unguided cerebral organoid protocol, highlighting all key stages from iPSC thawing to maturation and sampling. Each major intervention—media changes, Matrigel embedding, and retinoic acid addition—is marked along the timeline.](images/timeline.png)
+
+---
 
 ### 5.2 Stage I: Cell Cultivation and Seeding (Day 0)
 
 #### 5.2.1 Stem Cell Cultivation
 
-Maintain iPSCs in culture, monitoring their viability post-thaw. Allow cells to recover, proliferate, and reach 80% confluency before passaging, using a splitting ratio of 1:6 to 1:15 based on colony density and health. Limit passaging to three passages to preserve genomic stability.
+Maintain iPSCs in feeder-free conditions, ensuring high viability post-thaw. Allow cells to recover, proliferate, and reach 80% confluency before passaging. Use a splitting ratio of 1:6 to 1:15, depending on colony density and health. Restrict total passaging to three rounds after thawing to maintain genomic stability.
 
-![Figure 2: Cultivation of Induced Pluripotent Stem Cells](images/6.png)
+![**Figure 2.** Representative iPSC culture prior to passaging. Colonies are dense, compact, and free from spontaneous differentiation, suitable for subsequent single-cell dissociation.](images/6.png)
 
 #### 5.2.2 Dissociation of iPSCs
 
 1. When iPSCs reach 80–90% confluency, aspirate the medium.
 2. Wash cells with DPBS.
-3. Add 400 µL Accutase and incubate at 37°C for 5–7 minutes until cells detach.
-4. Visually confirm under a microscope that all cells are fully detached from the culture surface.
-5. Stop the reaction by adding 1 mL prewarmed DMEM/F12. For sensitive cell lines, you may use DMEM/F12 supplemented with an anti-apoptotic compound.
-6. Gently pipette up and down 5–10 times to obtain a single cell suspension.
+3. Add 400 µL Accutase and incubate at 37°C for 5–7 minutes until cells fully detach.
+4. Confirm detachment under a microscope, ensuring colonies lift as single cells.
+5. Stop the reaction with 1 mL prewarmed DMEM/F12. For sensitive lines, supplement with an anti-apoptotic compound if needed.
+6. Gently pipette up and down 5–10 times for a homogeneous single-cell suspension.
 
 #### 5.2.3 Harvesting and Counting Cells
 
-For a detailed explanation of cell counting in the Neubauer chamber, please see [Appendix A](#appendix-a).
+For details on cell counting with a Neubauer chamber, see [Appendix A](#appendix-a).
 
-1. Transfer the cell suspension to a 15 mL conical centrifuge tube.
-2. Centrifuge at 300 ×g for 5 minutes at room temperature.
-3. Aspirate the supernatant and resuspend the pellet in 2 mL DMEM/F12. For sensitive cell lines, you may use DMEM/F12 supplemented with an anti-apoptotic compound.
-4. Count cells using a Neubauer chamber or an automated cell counter.
+1. Transfer cell suspension to a 15 mL conical tube.
+2. Centrifuge at 300 ×g for 5 minutes at room temperature.
+3. Aspirate the supernatant; resuspend the pellet in 2 mL DMEM/F12 (with anti-apoptotic compound if required).
+4. Count viable cells using a Neubauer chamber or automated cell counter.
 
 #### 5.2.4 Seeding into 96-Well Plate
 
-For a detailed explanation of cell seeding and calculations, please see [Appendix A](#appendix-a).
+See [Appendix A](#appendix-a) for detailed seeding calculations.
 
-1. Adjust cell density to 9,000 cells per 150 µL (60,000 cells/mL) using iPSC culture medium supplemented with anti-apoptotic compounds.
-2. Dispense 150 µL of the cell suspension into each well of an ultralow attachment 96-well plate.
-3. Important: While pipetting, gently shake the tube containing the cell suspension to prevent cell sedimentation. Add cells to the wells in a single slow motion to avoid creating separate drops.
-4. Incubate at 37°C, 5% CO₂ without disturbance for the first 48 hours.
-5. At 2 days post seeding (dps), remove 100 µL of medium from each well and add 150 µL of fresh iPSC culture medium without PSC.
+1. Adjust cell density to 9,000 cells per 150 µL (60,000 cells/mL) in iPSC medium with anti-apoptotic compounds.
+2. Dispense 150 µL per well into an ultralow attachment 96-well plate.
+3. Important: Gently invert the tube before pipetting each row to prevent cell sedimentation. Add cells in a continuous, steady motion to avoid drop formation.
+4. Incubate at 37°C, 5% CO₂, undisturbed for 48 hours.
+5. At 2 dps (days post seeding), gently remove 100 µL medium from each well and replace with 150 µL fresh iPSC medium (without PSC).
 
 #### 5.2.5 Media Change Technique (at 2 Days Post Seeding)
 
-**1. Gently Remove Medium:**
-- Hold the 96-well plate at a slight angle so that the embryoid bodies (EBs) collect near one side of the well.
-- Using a P200 pipette set to 100 µL (or 150 µL if possible), place the pipette tip against the wall of the well at an angle of about 45 degrees, making sure the tip is above the EBs.
-- Slowly aspirate 100 µL of the old medium. Avoid touching the EB or creating turbulent flow that might damage or aspirate the EB.
-- Keep the pipette tip away from the bottom of the well; do not scrape the surface.
+**Gently Remove Medium:**
+- Tilt the 96-well plate so EBs collect on one side.
+- Using a P200 pipette set to 100–150 µL, place the tip against the well wall above the EB at a 45° angle.
+- Aspirate 100 µL of old medium without disturbing the EB or well surface.
 
-**2. Add Fresh Medium:**
-- Gently dispense 150 µL of fresh iPSC culture medium (without PSC) down the side of the well (again at an angle), allowing it to flow in slowly.
-- This prevents excessive turbulence and keeps the EB in place.
+**Add Fresh Medium:**
+- Slowly dispense 150 µL fresh medium (no PSC) down the well wall at an angle, minimizing turbulence and keeping the EB in place.
 
-![Figure 3: Seeding of 9,000 Cells per Well](images/1.png)
+![**Figure 3.** Accurate seeding of 9,000 single iPSCs per well into a 96-well plate using gentle pipetting technique to form uniform embryoid bodies.](images/1.png)
 
 ---
 
 ### 5.3 Stage II: Embryoid Body Growth
 
 1. **Medium Changes Every Other Day:**
-   - After seeding EBs, allow them to grow undisturbed for the first 48 hours.
-   - Starting from day 2 post-seeding (dps), perform medium changes every other day.
-   - Gently remove 150 µL of spent medium from each well using a P200 pipette. If some volume has evaporated, remove less to avoid disturbing the EB.
-   - Angle the pipette tip near the well wall, keeping clear of the EBs in the center. Aspirate slowly to prevent drawing EBs into the tip.
-   - Replenish with 150 µL of fresh iPSC medium (without anti-apoptotic compounds). Slowly dispense the medium along the side of the well to minimize shear stress.
-   - Tip: Prewarm all media to 37°C before use.
+   - After initial 48 h, perform medium changes every other day.
+   - Gently remove 150 µL spent medium using a P200 pipette, minimizing EB disturbance. Adjust for evaporation as needed.
+   - Replenish with 150 µL fresh, prewarmed iPSC medium (without anti-apoptotic compounds), dispensing along the well wall.
 
-2. **Morphology and Growth by 4–5 dps:**
-   - By days 4–5 post-seeding, EBs typically appear smooth, spherical, and often display translucent edges.
-   - EBs may range from ∼150–300 µm in diameter at this stage, though size can vary based on cell line.
-   - **Contamination Check:** Use a microscope to inspect for bacterial or fungal contamination. Discard any compromised wells to protect the rest of the culture.
+2. **Morphology and Growth by 4–5 dps:**
+   - By days 4–5, EBs should be smooth, spherical, and translucent at the edges (typical diameter 150–300 µm, line-dependent).
+   - Inspect for contamination daily; discard compromised wells to protect healthy cultures.
 
 ---
 
 ### 5.4 Stage III: Neuroinduction
 
-1. **Switching from iPSC Medium to NIM:**
-   - For macaque EBs: switch on day 4 post-seeding (4 dps).
-   - For human/chimpanzee EBs: switch on day 5 post-seeding (5 dps).
-   - Replace as much of the old iPSC medium as possible with 150 µL of Neuroinduction Medium (NIM) in each well.
+1. **Switch to Neuroinduction Medium (NIM):**
+   - For macaque EBs: switch on day 4 dps.
+   - For human/chimpanzee EBs: switch on day 5 dps.
+   - Replace iPSC medium with 150 µL fresh NIM per well.
 
-2. **Ongoing NIM Changes (Every Other Day):**
-   - Continue to feed with NIM every other day by removing 150 µL (or less in case of evaporation) and replacing it with fresh, prewarmed NIM.
-   - Maintain careful pipetting technique to avoid aspirating or damaging the EBs.
+2. **Continue NIM Changes Every Other Day:**
+   - Remove and replace 150 µL NIM every other day, taking care not to aspirate or damage EBs.
 
 ---
 
 ### 5.5 Stage IV: Embedding in Basement Membrane Matrix (Days 7–9)
 
-1. **Timing:** Approximately 7 dps for rhesus macaque or 8–9 dps for human/chimpanzee EBs.
+1. **Timing:**  
+   - Rhesus macaque: embed at 7 dps; human/chimpanzee: at 8–9 dps.
 
-2. **Preparation:**
-   - (Sterilising of scissors and forceps in Sekusept once a month).
-   - UV-sterilize scissors and forceps under the laminar flow hood.
-   - Thaw Matrigel on ice for 30–60 minutes (1.5 mL is sufficient for 96 EBs).
+2. **Preparation:**  
+   - Sterilize tools monthly; thaw Matrigel on ice for 30–60 min.
+   - Prepare Parafilm with 4×4 dimples for embedding (see protocol for details).
 
-3. **Creating Parafilm Dimples:**
-   - Cut a piece of Parafilm to approximately 6 cm × 6 cm. This size is sufficient to form a grid of 16 dimples (4×4).
-   - Place the Parafilm over a 200 µL pipette tip rack (with a 4×4 arrangement of tips removed).
-   - Gently press the Parafilm down over the empty tip holes to create shallow wells. These will become your individual dimples.
-   - Tip: Ensure each dimple is deep enough to hold one EB in a small droplet of Matrigel but not so large that the droplet spreads too thin.
-   - After forming the dimples, carefully cut away any excess Parafilm around the edges to create a neat 4×4 section. This step helps the dimpled Parafilm fit evenly in a 60 mm Petri dish.
-   - Transfer the dimpled Parafilm into a sterile 60 mm Petri dish, ensuring the dimples face upwards.
+3. **Transfer EBs:**  
+   - Use wide-bore tips to gently transfer EBs into individual Matrigel droplets in Parafilm dimples. Remove excess medium without drying EBs.
 
-4. **Transferring EBs:**
-   - Slightly tilt the plate to allow EBs to collect on one side of each well.
-   - Use a cut 200 µL pipette tip (2–3 mm) to widen the opening. This prevents excessive shear stress on the EBs while pipetting.
-   - Set your pipette to a volume of 150–200 µL. Place the tip near the EBs (but not directly on them) and gently aspirate. Move slowly to avoid damaging the EBs or creating bubbles.
-   - Transfer one EB per Parafilm dimple (4×4 = 16 dimples). Dispense carefully at a low angle, allowing the EB to settle in the center of the dimple. Avoid excess agitation that might cause EBs to roll out.
-   - After transferring a few EBs, any medium accumulating in the dimple can be gently aspirated. Use a new small pipette tip (20 µL) to remove extra medium without disturbing the EB. Keep enough moisture so that the EB does not dry, but remove as much liquid as possible to ensure that Matrigel will not be overly diluted in the next step.
+4. **Add Matrigel:**  
+   - Overlay each EB with cold Matrigel. Ensure full coverage for 3D support.
 
-5. **Adding Matrigel:**
-   - Use a 200 µL pipette tip to handle Matrigel (kept on ice).
-   - Pipette the whole volume of cold Matrigel from the tube and pipette directly onto each EB-containing dimple by droplet. Work quickly to avoid premature polymerization at room temperature.
-   - Using a 10 µL pipette tip or a microdissection tool, gently push or nudge the EB toward the middle of the Matrigel droplet. Do not disrupt the droplet border—avoid piercing through the Matrigel layer.
-   - If the droplet appears too small to fully cover the EB, add another small droplet of Matrigel.
-   - If the EB is too close to the droplet edge, gently move it inward and deposit more Matrigel to keep the EB fully surrounded.
-   - Ensure the Matrigel does not spread so thin that it fails to provide adequate 3D support.
+5. **Polymerization:**  
+   - Incubate at 37°C for 15–30 min to polymerize Matrigel.
 
-6. **Polymerization:**  
-   - Incubate the dish at 37°C for 15–30 minutes to allow Matrigel to polymerize.
+6. **Detach to Shaker Culture:**  
+   - Invert Parafilm with embedded EBs into a dish of DM (no vitamin A). Gently swirl to release droplets, then incubate at 37°C on a shaker (65 rpm).
 
-7. **Detaching to Shaker Culture:**
-   - Prepare a dish with fresh DM (no Vitamin A): Fill a 60 mm Petri dish (or similar) with sufficient differentiation medium (DM) without vitamin A—enough volume (e.g., 5–6 mL) to fully submerge the Parafilm sheet. Keep this dish under sterile conditions in the laminar flow hood.
-   - Carefully pick up with forceps the Parafilm by its edges (to avoid disturbing the embedded EBs).
-   - Invert (flip) it so that the Matrigel droplets/EBs face downward. Gently submerge the flipped Parafilm in the dish containing DM. The Matrigel droplets should now be in direct contact with the medium.
-   - Swirl or gently roll the Parafilm: Holding the Petri dish at a slight angle, swirl the dish in a circular motion. If needed, use a gentle rolling motion of the Parafilm itself (e.g., tipping it slightly side-to-side) to dislodge the Matrigel-embedded EBs from the film surface.  
-     Note: Avoid vigorous shaking—excessive shear can damage the EBs. A few gentle swirls typically loosen them.
-   - Check for EBs that remain attached: Ensure all EBs have been released into the medium. If any droplets remain stuck, use a wide-bore pipette tip (200 µL tip with the end cut off) to gently coax them off the Parafilm.
-   - Once all EBs are detached, remove the Parafilm from the dish and discard it.
-   - Place the Petri dish (now containing Matrigel-embedded EBs in DM) onto an orbital shaker set to 65 rpm.
-   - Incubate at 37°C with 5% CO₂ and 95% humidity.
-
-![Figure 4: EBs during transfer and embedding.](images/2.png) (images/3.png)
+| ![**a.** EBs during transfer to Parafilm dimples, showing single, round EBs ready for embedding.](images/2.png) | ![**b.** EBs embedded in Matrigel droplets on Parafilm, prior to transfer into differentiation medium.](images/3.png) |
+|:--------------------------------------:|:--------------------------------------:|
+| **Figure 4a.** EBs during transfer     | **Figure 4b.** EBs during embedding    |
 
 ---
 
 #### 5.5.1 Post-Embedding Maintenance (Full-Volume Changes in a Dish)
 
-- **Full Media Change Schedule (Without Vitamin A):**
-  - Every other day, remove and replace the entire volume of differentiation medium (DM) (5–6 mL).
-  - This ensures fresh nutrients and reduces waste/toxin buildup.
+- **Media Change (No Vitamin A):**  
+  - Every other day, replace the full volume (5–6 mL) of differentiation medium (DM, no vitamin A) in the organoid culture dish.
 
-- **Gathering Organoids in the Center:**
-  - Before aspirating, gently rotate or swirl the dish on a flat, horizontal surface.
-  - This slow, circular motion helps organoids drift toward the center of the dish.
-  - Note: Avoid vigorous tilting or swirling, which can cause organoids to stick to the edges or become damaged.
+- **Centring Organoids:**  
+  - Before aspirating, gently swirl the dish to gather organoids in the center.
 
-- **Aspirating the Medium:**
-  - Use a 1000 µL pipette set to 1 mL at a time.
-  - Carefully place the pipette tip near the edge of the dish, away from the cluster of organoids.
-  - Slowly aspirate the medium in successive 1 mL pulls until only a small layer of liquid remains.
-  - Monitor for any organoids that might drift toward the pipette tip; if so, gently release them back into the center.
+- **Medium Exchange:**  
+  - Use a 1,000 µL pipette to carefully aspirate medium from the edge, avoiding the organoid cluster.
 
-- **Refilling with Fresh DM (Without Vitamin A):**
-  - Slowly add 5–6 mL of fresh DM down the side of the dish, allowing it to flow around the organoids.
-  - Lightly swirl the dish afterward to distribute fresh medium evenly, but avoid creating excessive shear stress.
+- **Refilling:**  
+  - Slowly add 5–6 mL fresh DM down the side of the dish, then swirl gently.
 
-- **Observation and Maintenance:**
-  - Examine the organoids regularly under a microscope or good lighting for necrosis, fusion, or contamination.
-  - If organoids stick together or to the dish edge, use a wide-bore pipette tip to gently separate them.
+- **Routine Inspection:**  
+  - Monitor for necrosis, fusion, or sticking. If organoids stick together, separate gently with a wide-bore tip.
 
-![Figure 5: Organoid Growth in Differentiation Medium on the Shaker (No Vitamin A).](images/4.png)
+![**Figure 5.** Organoid development after embedding in Matrigel and transfer to orbital shaker. Organoids are visible as translucent spheres, maintained in DM without vitamin A.](images/4.png)
 
 ---
 
 ### 5.6 Stage V: Retinoic Acid Addition and Ventricle Formation (Days 13–15+)
 
-1. **Switch to Vitamin A DM:**
-   - At the appropriate day (13 for rhesus, 14–15 for human/chimpanzee), perform a full-volume media change just as described above, but use DM containing vitamin A (retinoic acid).
-   - Use the same volume (5–6 mL) and gentle technique to avoid shearing the organoids.
-   - All subsequent feeds now include vitamin A (unless otherwise specified for experimental design).
+1. **Switch to Vitamin A DM:**  
+   - On day 13 (rhesus) or 14–15 (human/chimpanzee), replace all medium with DM containing vitamin A (retinoic acid). Continue using gentle exchange technique.
 
-2. **Feeding Frequency (Every 3–4 Days):**
-   - After the initial vitamin A switch, continue replacing the entire medium volume every 3–4 days.
-   - If organoids grow large or consume nutrients rapidly, you may increase the frequency of full-volume changes to every 2–3 days.
+2. **Feeding Frequency:**  
+   - After the first vitamin A addition, replace the full medium volume every 3–4 days (or every 2–3 days for rapidly growing organoids).
 
-3. **Morphological Expectations:**
-   - Over the next 1–2 weeks, expect to see ventricle-like cavities lined by neuroepithelial cells.
-   - Monitor carefully for fusion if organoids become large or numerous. Consider gently separating fused organoids.
+3. **Expected Morphology:**  
+   - Within 1–2 weeks, neuroepithelial rosettes and ventricle-like cavities should emerge. Monitor for organoid fusion or size heterogeneity.
 
-![Figure 6: Organoid Growth Post-Retinoic Acid Addition on the Shaker.](images/5.png)
+![**Figure 6.** Matured cerebral organoids 2–3 weeks post-vitamin A addition, exhibiting ventricle-like cavities and radial neuroepithelial organization. Organoids are well separated and maintained in optimal conditions.](images/5.png)
+
+---
 
 **Final Remarks:**  
-This detailed protocol provides a comprehensive guide for producing unguided cerebral organoids. Adhere to sterile techniques and monitor EB morphology closely. Adjust timelines based on specific iPSC lines and species to ensure successful organoid development. Incorporate best practices such as regular sterility checks and consistent Matrigel batch testing to maintain high-quality outcomes.
+This optimized protocol provides comprehensive, stepwise instructions for the robust generation of unguided cerebral organoids. Success depends on strict aseptic technique, careful monitoring of EB and organoid morphology, and consistent medium preparation. Adjust timelines and interventions as needed for specific iPSC lines or experimental goals. Regular sterility checks and Matrigel quality assessment are recommended to maximize reproducibility and developmental fidelity.
 
 ---
 
@@ -525,52 +487,77 @@ Implementing these preventive measures and gentle mechanical interventions early
 
 ## Image Gallery
 
-This gallery showcases the photographs captured during the generation of cerebral organoids using the protocol outlined above. Each image is organized chronologically and corresponds to specific stages in the protocol.
+This gallery showcases representative phase-contrast images captured during the generation of cerebral organoids using the stepwise protocol above. Figures are organized chronologically to illustrate key technical stages, culture morphology, and decision points throughout organoid production.
+
+---
 
 ### C.1 Seeding for Embryoid Body Formation
 
-![Figure 7: Large and healthy iPSC colonies prepared for EB formation on November 17, 2024.](path/to/image)
+![Large iPSC colonies at optimal density and morphology for EB seeding. These undifferentiated colonies are compact with smooth edges and high nucleus-to-cytoplasm ratio, ready for single-cell dissociation. (November 17, 2024)](images/1_Sandra_1711.jpeg)
+
+---
 
 ### C.2 Embryoid Body Formation
 
-- (a) EB (2 dps) on November 19, 2024.
-- (b) EB (3 dps) on November 20, 2024.
-- (c) EB (5 dps) on November 22, 2024.
-- (d) EB (6 dps) on November 23, 2024.
+- (a) Formation and early compaction of embryoid bodies (EBs) within 96-well ultralow attachment plates.
+- (b) Spherical symmetry and viability during initial days post seeding.
 
-![Figure 8: Morphology of EBs.](path/to/image)
+| ![EB (2 dps)](images/Sandra_eb_PSC2.jpeg) | ![EB (3 dps)](images/Sandra_PSC2-20.jpeg) |
+|:------------------------------------------:|:-----------------------------------------:|
+| **Day 2 post-seeding:** EBs form compact, uniform spheroids. Typical diameter: 100–200 μm. No visible necrotic core. | **Day 3 post-seeding:** EBs expand further, edges remain regular. Continued compaction and smooth contour. |
+
+| ![EB (5 dps)](images/Sandra_eb_PSC_NIM5d0_6F.jpeg) | ![EB (6 dps)](images/Sandra_eb_PSC_NIM4d2_8H.jpeg) |
+|:--------------------------------------------------:|:-------------------------------------------------:|
+| **Day 5 post-seeding:** EBs after media switch to Neuroinduction Medium (NIM). Neuroepithelial thickening and further growth. | **Day 6 post-seeding:** Onset of visible neuroepithelial border; EBs remain discrete and healthy with no clumping. |
+
+---
 
 ### C.3 Embedded Organoid Development
 
-- (a) Early Embedding (8 dps) on November 25, 2024.
-- (b) Late Embedding (9 dps) on November 26, 2024.
+- (a) Early embedding in Matrigel after 8 days in suspension culture, before transfer to rotary shaker.
+- (b) Late embedding at 9 days, illustrating minor differences in outer structure and Matrigel encapsulation.
 
-![Figure 9: Morphology of Organoids.](path/to/image)
+| ![Early Embedding (8 dps)](images/Sandra_b1711_ung_emb2511_p1_3.jpeg) | ![Late Embedding (9 dps)](images/Sandra_b1711_ung_emb2611_p3_2.jpeg) |
+|:---------------------------------------------------------------------:|:--------------------------------------------------------------------:|
+| **Early embedding (8 dps):** EB immediately after Matrigel encapsulation, showing robust neuroepithelial surface. | **Late embedding (9 dps):** EB transferred to Matrigel after extended pre-embedding culture, with a denser surface zone and some variability in contour. |
+
+---
 
 ### C.4 Organoid Maturation
 
-- (a) Organoid (11 dps) of E8 on November 28, 2024.
-- (b) Organoid (11 dps) of E9 on November 28, 2024.
+- (a) Forebrain organoid 11 days post-seeding, following early embedding.
+- (b) Forebrain organoid 11 days post-seeding, following late embedding.
 
-![Figure 10: Morphology of Organoids.](path/to/image)
+| ![Organoid (11 dps) of E8](images/Sandra_b1711_emb25_1_4.jpeg) | ![Organoid (11 dps) of E9](images/Sandra_b1711_emb25_late_3_6.jpeg) |
+|:--------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| **11 dps, early-embedded:** Mature neuroepithelial rosettes and emerging ventricle-like cavities. Organoid remains spherical with smooth outer surface. | **11 dps, late-embedded:** Similar size and organization, with subtle differences in outer margin and radial organization of cells. |
+
+---
 
 ### C.5 Plate 1: Early Embedding (8 dps) and Early Vitamin A Addition (14 dps)
 
-- (a) Sample p1-3.1
-- (b) Sample p1-5.2
+- (a) and (b) show different organoids from Plate 1, both subjected to early embedding and vitamin A addition at day 14.
 
-![Figure 11: Early Embedding and Early Vitamin A Addition Organoids – 26 dps; December 13, 20224 (Collected on December 16, 2024).](path/to/image)
+| ![p1-3.1](images/p1-3.1.jpeg) | ![p1-5.2](images/p1-5.2.jpeg) |
+|:-----------------------------:|:-----------------------------:|
+| **p1-3.1:** Example of well-formed forebrain organoid after 26 days in culture, following optimal timeline. Features include dense neuroepithelium and distinct luminal space. | **p1-5.2:** Representative organoid from same plate, demonstrating consistency of morphology across technical replicates. |
+
+---
 
 ### C.6 Plate 2: Early Embedding (8 dps) and Early Vitamin A Addition (14 dps)
 
-- (a) Sample p2-3.1
-- (b) Sample p2-4.2
+- (a) and (b) show additional organoids from Plate 2 with identical protocol parameters.
 
-![Figure 12: Early Embedding and Early Vitamin A Addition Organoids – 26 dps; December 13, 2024 (Collected on December 16, 2024).](path/to/image)
+| ![p2-3.1](images/p2-3.1.jpeg) | ![p2-4.2](images/p2-4.2.jpeg) |
+|:-----------------------------:|:-----------------------------:|
+| **p2-3.1:** Organoid illustrating homogeneous radial neuroepithelial zones after 26 days, corresponding to early embedding/early vitamin A. | **p2-4.2:** Slight variation in outer thickness, but robust neuroepithelial stratification, confirming reproducibility of the optimized protocol. |
+
+---
 
 ### C.7 Plate 3: Late Embedding (9 dps) and Late Vitamin A Addition (15 dps)
 
-- (a) Sample p3-2.2
-- (b) Sample p3-3.2
+- (a) and (b) display organoids subjected to late embedding and delayed vitamin A addition.
 
-![Figure 13: Late Embedding and Late Vitamin A Addition Organoids – 26 dps; December 13, 2024 (Collected on December 16, 2024).](path/to/image)
+| ![p3-2.2](images/p3-2.2.jpeg) | ![p3-3.2](images/p3-3.2.jpeg) |
+|:-----------------------------:|:-----------------------------:|
+| **p3-2.2:** Organoid after 26 days with delayed embedding and retinoic acid exposure, showing slightly enlarged and irregular neuroepithelial zones. | **p3-3.2:** Example of morphological heterogeneity sometimes observed with late embedding, including uneven border and less defined central lumen. |
