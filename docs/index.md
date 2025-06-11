@@ -11,7 +11,7 @@ Welcome to the open, detailed, and visual protocol for generating unguided cereb
     <h3>⚗️ Materials &amp; Methods</h3>
     <p>Detailed list of reagents, media, plastics, and equipment for organoid culture.</p>
   </a>
-  <a class="card" href="#appendix-a">
+  <a class="card" href="#appendix-a-counting-cells-in-a-neubauer-chamber-with-trypan-blue-and-detailed-seeding-example">
     <h3>📖 Appendix &amp; Troubleshooting</h3>
     <p>Clear guidance for cell counting, seeding, and managing organoid fusion or sticking.</p>
   </a>

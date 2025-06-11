@@ -5,8 +5,8 @@ nav:
   - Introduction: index.md#2-introduction
   - Materials & Equipment: index.md#3-materials-and-equipment
   - Protocol: index.md#5-detailed-protocol
-  - Appendix A: index.md#appendix-a
-  - Appendix B: index.md#appendix-b
+  - Appendix A: index.md#appendix-a-counting-cells-in-a-neubauer-chamber-with-trypan-blue-and-detailed-seeding-example
+  - Appendix B: index.md#appendix-b-preventing-and-managing-sticking-of-organoids
   - Image Gallery: index.md#image-gallery
 
 theme:
