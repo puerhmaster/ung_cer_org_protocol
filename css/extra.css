@@ -1,0 +1,92 @@
+/* ---- Custom Lab Protocol Styling ---- */
+
+/* Use a gentle background color for code blocks and callouts */
+.md-typeset pre, .md-typeset code {
+    background: #f5f7fa !important;
+    font-size: 15px;
+}
+
+/* Make images responsive and with subtle borders */
+.md-typeset img {
+    display: block;
+    max-width: 80%;
+    margin: 1em auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(24, 60, 85, 0.08);
+    border: 1px solid #e0e7ef;
+}
+
+.md-typeset table {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #d9e4f5;
+    margin-bottom: 2em;
+}
+
+.md-typeset .admonition {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(60, 100, 180, 0.05);
+}
+
+.md-header, .md-footer {
+    background: linear-gradient(90deg, #2962ff 0%, #26c6da 100%);
+}
+
+/* Cards for home/welcome sections */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin-top: 2em;
+}
+.card {
+    background: #f4fafd;
+    border: 1px solid #d7eafc;
+    border-radius: 15px;
+    padding: 2em;
+    max-width: 340px;
+    box-shadow: 0 2px 8px rgba(80,180,255,0.07);
+    transition: box-shadow 0.2s;
+}
+.card:hover {
+    box-shadow: 0 8px 32px rgba(50, 110, 255, 0.16);
+}
+
+@media (max-width: 700px) {
+    .cards {
+        flex-direction: column;
+        gap: 1em;
+    }
+    .card {
+        max-width: 100%;
+    }
+}
+
+/* Fonts for better readability */
+body, .md-typeset {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    font-size: 17px;
+    color: #202636;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #1243a7;
+}
+
+.md-typeset a {
+    color: #1976d2;
+    text-decoration: underline dotted;
+}
+
+.md-typeset .tabbed-labels {
+    font-size: 16px;
+}
+
+/* Hide edit and repo buttons if not used */
+.md-header__source {
+    display: none !important;
+}
