@@ -2,9 +2,9 @@ site_name: "Unguided Cerebral Organoid Protocol"
 
 nav:
   - Home: index.md
-  - Introduction: index.md#introduction
-  - Materials & Equipment: index.md#materials-and-equipment
-  - Protocol: index.md#detailed-protocol
+  - Introduction: index.md#2-introduction
+  - Materials & Equipment: index.md#3-materials-and-equipment
+  - Protocol: index.md#5-detailed-protocol
   - Appendix A: index.md#appendix-a
   - Appendix B: index.md#appendix-b
   - Image Gallery: index.md#image-gallery

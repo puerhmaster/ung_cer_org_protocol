@@ -3,11 +3,11 @@
 Welcome to the open, detailed, and visual protocol for generating unguided cerebral organoids from iPSCs.
 
 <div class="cards">
-  <a class="card" href="#detailed-protocol">
+  <a class="card" href="#5-detailed-protocol">
     <h3>💡 Protocol</h3>
     <p>Step-by-step, image-rich protocol for reproducible results.</p>
   </a>
-  <a class="card" href="#materials-and-equipment">
+  <a class="card" href="#3-materials-and-equipment">
     <h3>⚗️ Materials &amp; Methods</h3>
     <p>Detailed list of reagents, media, plastics, and equipment for organoid culture.</p>
   </a>
