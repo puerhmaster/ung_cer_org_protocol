@@ -530,7 +530,12 @@ This gallery showcases representative phase-contrast images captured during the 
 
 ### C.1 Seeding for Embryoid Body Formation
 
-![Large iPSC colonies at optimal density and morphology for EB seeding. These undifferentiated colonies are compact with smooth edges and high nucleus-to-cytoplasm ratio, ready for single-cell dissociation. (November 17, 2024)](images/1_Sandra_1711.jpeg)
+<figure>
+  <img src="images/1_Sandra_1711.jpeg" alt="Large iPSC colonies at optimal density and morphology for EB seeding. These undifferentiated colonies are compact with smooth edges and high nucleus-to-cytoplasm ratio, ready for single-cell dissociation. (November 17, 2024)" style="width:70%; max-width:350px;">
+  <figcaption>
+    <b>Figure C.1.</b> Large iPSC colonies at optimal density and morphology for EB seeding. These undifferentiated colonies are compact with smooth edges and high nucleus-to-cytoplasm ratio, ready for single-cell dissociation. <i>(November 17, 2024)</i>
+  </figcaption>
+</figure>
 
 ---
 
