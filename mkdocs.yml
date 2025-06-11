@@ -11,7 +11,7 @@ nav:
 
 theme:
   name: material
-  logo: images/logo_new.png
+  logo: images/favicon.png
   favicon: images/favicon.png
   features:
     - navigation.expand

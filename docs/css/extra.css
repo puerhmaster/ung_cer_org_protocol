@@ -38,7 +38,7 @@
     gap: 2em;
     justify-content: center;
     margin-top: 2em;
-    background-image: url('images/your-background.jpg'); /* adjust the path */
+    background-image: url('images/background.png'); /* adjust the path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,4 +101,9 @@ h1, h2, h3, h4 {
 /* Hide edit and repo buttons if not used */
 .md-header__source {
     display: none !important;
+}
+
+.md-header__button.md-logo img {
+    height: 40px !important;   /* adjust size as needed */
+    width: auto !important;
 }
