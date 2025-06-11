@@ -3,18 +3,22 @@
 Welcome to the open, detailed, and visual protocol for generating unguided cerebral organoids from iPSCs.
 
 <div class="cards">
-  <div class="card">
-    <h3>💡 Quick Start</h3>
+  <a class="card" href="#detailed-protocol">
+    <h3>💡 Protocol</h3>
     <p>Step-by-step, image-rich protocol for reproducible results.</p>
-  </div>
-  <div class="card">
-    <h3>📖 Appendix & Troubleshooting</h3>
+  </a>
+  <a class="card" href="#materials-and-equipment">
+    <h3>⚗️ Materials &amp; Methods</h3>
+    <p>Detailed list of reagents, media, plastics, and equipment for organoid culture.</p>
+  </a>
+  <a class="card" href="#appendix-a">
+    <h3>📖 Appendix &amp; Troubleshooting</h3>
     <p>Clear guidance for cell counting, seeding, and managing organoid fusion or sticking.</p>
-  </div>
-  <div class="card">
+  </a>
+  <a class="card" href="#image-gallery">
     <h3>🖼️ Gallery</h3>
     <p>Chronological images for every stage: EB, embedding, maturation.</p>
-  </div>
+  </a>
 </div>
 
 !!! tip "Best Practice"
@@ -26,8 +30,8 @@ Welcome to the open, detailed, and visual protocol for generating unguided cereb
 
 _With Illustrated Steps and Timeline_
 
-**Author:**  
-Evgenii Kachkin
+**Authors:**  
+Evgenii Kachkin, Aleksandra Kondrashkina
 
 **Affiliation:**  
 Heidelberg University / ZMBH / Kaessmann Lab
@@ -186,7 +190,10 @@ Cerebral organoids are three-dimensional multicellular structures derived from p
 
 ### 5.1 Timeline Overview
 
-![**Figure 1.** Schematic overview of the unguided cerebral organoid protocol, highlighting all key stages from iPSC thawing to maturation and sampling. Each major intervention—media changes, Matrigel embedding, and retinoic acid addition—is marked along the timeline.](images/timeline.png)
+<figure>
+  <img src="images/timeline.png" alt="Schematic overview of the unguided cerebral organoid protocol, highlighting all key stages from iPSC thawing to maturation and sampling. Each major intervention—media changes, Matrigel embedding, and retinoic acid addition—is marked along the timeline." style="width:70%; max-width:350px;">
+  <figcaption><b>Figure 1.</b> Schematic overview of the unguided cerebral organoid protocol, highlighting all key stages from iPSC thawing to maturation and sampling. Each major intervention—media changes, Matrigel embedding, and retinoic acid addition—is marked along the timeline.</figcaption>
+</figure>
 
 ---
 
@@ -196,7 +203,10 @@ Cerebral organoids are three-dimensional multicellular structures derived from p
 
 Maintain iPSCs in feeder-free conditions, ensuring high viability post-thaw. Allow cells to recover, proliferate, and reach 80% confluency before passaging. Use a splitting ratio of 1:6 to 1:15, depending on colony density and health. Restrict total passaging to three rounds after thawing to maintain genomic stability.
 
-![**Figure 2.** Representative iPSC culture prior to passaging. Colonies are dense, compact, and free from spontaneous differentiation, suitable for subsequent single-cell dissociation.](images/6.png)
+<figure>
+  <img src="images/6.png" alt="Representative iPSC culture prior to passaging. Colonies are dense, compact, and free from spontaneous differentiation, suitable for subsequent single-cell dissociation." style="width:70%; max-width:350px;">
+  <figcaption><b>Figure 2.</b> Representative iPSC culture prior to passaging. Colonies are dense, compact, and free from spontaneous differentiation, suitable for subsequent single-cell dissociation.</figcaption>
+</figure>
 
 #### 5.2.2 Dissociation of iPSCs
 
@@ -236,7 +246,10 @@ See [Appendix A](#appendix-a) for detailed seeding calculations.
 **Add Fresh Medium:**
 - Slowly dispense 150 µL fresh medium (no PSC) down the well wall at an angle, minimizing turbulence and keeping the EB in place.
 
-![**Figure 3.** Accurate seeding of 9,000 single iPSCs per well into a 96-well plate using gentle pipetting technique to form uniform embryoid bodies.](images/1.png)
+<figure>
+  <img src="images/1.png" alt="Accurate seeding of 9,000 single iPSCs per well into a 96-well plate using gentle pipetting technique to form uniform embryoid bodies." style="width:70%; max-width:350px;">
+  <figcaption><b>Figure 3.</b> Accurate seeding of 9,000 single iPSCs per well into a 96-well plate using gentle pipetting technique to form uniform embryoid bodies.</figcaption>
+</figure>
 
 ---
 
@@ -286,9 +299,22 @@ See [Appendix A](#appendix-a) for detailed seeding calculations.
 6. **Detach to Shaker Culture:**  
    - Invert Parafilm with embedded EBs into a dish of DM (no vitamin A). Gently swirl to release droplets, then incubate at 37°C on a shaker (65 rpm).
 
-| ![**a.** EBs during transfer to Parafilm dimples, showing single, round EBs ready for embedding.](images/2.png) | ![**b.** EBs embedded in Matrigel droplets on Parafilm, prior to transfer into differentiation medium.](images/3.png) |
-|:--------------------------------------:|:--------------------------------------:|
-| **Figure 4a.** EBs during transfer     | **Figure 4b.** EBs during embedding    |
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="images/2.png" alt="EBs during transfer to Parafilm dimples, showing single, round EBs ready for embedding." style="width:97%; max-width:260px;">
+        <figcaption><b>Figure 4a.</b> EBs during transfer to Parafilm dimples, showing single, round EBs ready for embedding.</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="images/3.png" alt="EBs embedded in Matrigel droplets on Parafilm, prior to transfer into differentiation medium." style="width:97%; max-width:260px;">
+        <figcaption><b>Figure 4b.</b> EBs embedded in Matrigel droplets on Parafilm, prior to transfer into differentiation medium.</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -309,7 +335,10 @@ See [Appendix A](#appendix-a) for detailed seeding calculations.
 - **Routine Inspection:**  
   - Monitor for necrosis, fusion, or sticking. If organoids stick together, separate gently with a wide-bore tip.
 
-![**Figure 5.** Organoid development after embedding in Matrigel and transfer to orbital shaker. Organoids are visible as translucent spheres, maintained in DM without vitamin A.](images/4.png)
+<figure>
+  <img src="images/4.png" alt="Organoid development after embedding in Matrigel and transfer to orbital shaker. Organoids are visible as translucent spheres, maintained in DM without vitamin A." style="width:70%; max-width:350px;">
+  <figcaption><b>Figure 5.</b> Organoid development after embedding in Matrigel and transfer to orbital shaker. Organoids are visible as translucent spheres, maintained in DM without vitamin A.</figcaption>
+</figure>
 
 ---
 
@@ -324,7 +353,15 @@ See [Appendix A](#appendix-a) for detailed seeding calculations.
 3. **Expected Morphology:**  
    - Within 1–2 weeks, neuroepithelial rosettes and ventricle-like cavities should emerge. Monitor for organoid fusion or size heterogeneity.
 
-![**Figure 6.** Matured cerebral organoids 2–3 weeks post-vitamin A addition, exhibiting ventricle-like cavities and radial neuroepithelial organization. Organoids are well separated and maintained in optimal conditions.](images/5.png)
+<figure>
+  <img src="images/5.png" alt="Matured cerebral organoids 2–3 weeks post-vitamin A addition, exhibiting ventricle-like cavities and radial neuroepithelial organization. Organoids are well separated and maintained in optimal conditions." style="width:70%; max-width:350px;">
+  <figcaption><b>Figure 6.</b> Matured cerebral organoids 2–3 weeks post-vitamin A addition, exhibiting ventricle-like cavities and radial neuroepithelial organization. Organoids are well separated and maintained in optimal conditions.</figcaption>
+</figure>
+
+---
+
+**Final Remarks:**  
+This optimized protocol provides comprehensive, stepwise instructions for the robust generation of unguided cerebral organoids. Success depends on strict aseptic technique, careful monitoring of EB and organoid morphology, and consistent medium preparation. Adjust timelines and interventions as needed for specific iPSC lines or experimental goals. Regular sterility checks and Matrigel quality assessment are recommended to maximize reproducibility and developmental fidelity.
 
 ---
 

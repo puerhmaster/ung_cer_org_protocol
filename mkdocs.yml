@@ -2,16 +2,17 @@ site_name: "Unguided Cerebral Organoid Protocol"
 
 nav:
   - Home: index.md
-  - Introduction: 01-introduction.md
-  - "Materials & Equipment": 02-materials.md
-  - Protocol: 03-protocol.md
-  - Appendix: appendix.md
-  - "Image Gallery": gallery.md
+  - Introduction: index.md#introduction
+  - Materials & Equipment: index.md#materials-and-equipment
+  - Protocol: index.md#detailed-protocol
+  - Appendix A: index.md#appendix-a
+  - Appendix B: index.md#appendix-b
+  - Image Gallery: index.md#image-gallery
 
 theme:
   name: material
-  logo: images/logo_400x400.png
-  favicon: images/logo_400x400.png
+  logo: images/logo_new.png
+  favicon: images/favicon.png
   features:
     - navigation.expand
     - navigation.top
